@@ -1,0 +1,381 @@
+{
+ "name": "UJF",
+ "children": [
+  {
+   "name": "BatA",
+   "children": [
+      {
+     "name": "LaboHost",
+     "children": [
+      {"name": "LH_PC1", "size": 3534,"etat":"ok"},
+      {"name": "LH_PC2", "size": 5731,"etat":"ok"},
+      {"name": "LH_PC3", "size": 7840,"etat":"ko","children": [
+						  {"name": "Docker_VM", "size": 3534,"etat":"ko"},
+						  {"name": "ELK_VM", "size": 5731,"etat":"ok"},
+						  {"name": "LKELK_VM", "size": 7840,"etat":"ok"},
+						  {"name": "Flume_VM", "size": 5914,"etat":"ko"},
+						  {"name": "SPARK_VM", "size": 7840,"etat":"ok"}
+						  ]},
+      {"name": "LH_PC4", "size": 5914,"etat":"ok",
+	  "children": [
+						  {"name": "Docker_VM", "size": 3534,"etat":"ko"},
+						  {"name": "ELK_VM", "size": 5731,"etat":"ok"},
+						  {"name": "LKELK_VM", "size": 7840,"etat":"ok"},
+						  {"name": "Flume_VM", "size": 5914,"etat":"ko"},
+						  {"name": "SPARK_VM", "size": 7840,"etat":"ok"}
+						  ]},
+      {"name": "LH_PC5", "size": 3416,"etat":"ok"}
+     ]
+    },
+	 {
+     "name": "PrintZone",
+     "children": [
+      {"name": "HAPC1", "size": 1983,"etat":"ok"},
+      {"name": "HAPC2", "size": 2047,"etat":"ok"},
+      {"name": "HAPC3", "size": 1375,"etat":"ok"}
+         ]
+    },
+    {
+     "name": "TP",
+     "children": [
+      	  {"name": "Salle1", "size": 5914,"etat":"ok","children": [
+						  {"name": "S1_Host1", "size": 3534,"etat":"ok"},
+						  {"name": "S1_Host2", "size": 5731,"etat":"ok"},
+						  {"name": "S1_Host3", "size": 7840,"etat":"ok"},
+						  {"name": "S1_Host4", "size": 5914,"etat":"ok"},
+						  {"name": "S1_Host5", "size": 7840,"etat":"ok"}
+						  ]},
+		{"name": "Salle2", "size": 7074,"etat":"ok","children": [
+						  {"name": "S2_Host1", "size": 3534,"etat":"ok"},
+						  {"name": "S1_Host2", "size": 5731,"etat":"ok"},
+						  {"name": "S2_Host3", "size": 7840,"etat":"ok"},
+						  {"name": "S2_Host4", "size": 5914,"etat":"ko",
+						  "children": [
+						   {"name": "DupontN", "size": 7840,"etat":"ko"}
+						  ]},
+						  {"name": "S1_Host5", "size": 7840,"etat":"ok"}
+						  ]},
+      {"name": "Salle3", "size": 3416,"etat":"ok","children": [
+						  {"name": "S3_Host1", "size": 3534,"etat":"ok"},
+						  {"name": "S3_Host2", "size": 5731,"etat":"ok"},
+						  {"name": "S3_Host3", "size": 7840,"etat":"ok"},
+						  {"name": "S3_Host4", "size": 5914,"etat":"ok"},
+						  {"name": "S3_Host5", "size": 7840,"etat":"ok"}
+						  ]},
+	  {"name": "Salle4", "size": 6714,"etat":"ok","children": [
+						  {"name": "S4_Host1", "size": 3534,"etat":"ok"},
+						  {"name": "S4_Host2", "size": 5731,"etat":"ok"},
+						  {"name": "S4_Host3", "size": 7840,"etat":"ok"},
+						  {"name": "S4_Host4", "size": 5914,"etat":"ko"},
+						  {"name": "S4_Host5", "size": 7840,"etat":"ok"}
+						  ]}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "BatB",
+   "children": [
+    	{
+     "name": "LaboHost",
+     "children": [
+      {"name": "LH_PC1", "size": 3534,"etat":"ok"},
+      {"name": "LH_PC2", "size": 5731,"etat":"ok"},
+      {"name": "LH_PC3", "size": 7840,"etat":"ko","children": [
+						  {"name": "Docker_VM", "size": 3534,"etat":"ko"},
+						  {"name": "ELK_VM", "size": 5731,"etat":"ok"},
+						  {"name": "LKELK_VM", "size": 7840,"etat":"ok"},
+						  {"name": "Flume_VM", "size": 5914,"etat":"ko"},
+						  {"name": "SPARK_VM", "size": 7840,"etat":"ok"}
+						  ]},
+      {"name": "LH_PC4", "size": 5914,"etat":"ok",
+	  "children": [
+						  {"name": "Docker_VM", "size": 3534,"etat":"ok"},
+						  {"name": "ELK_VM", "size": 5731,"etat":"ok"},
+						  {"name": "LKELK_VM", "size": 7840,"etat":"ok"},
+						  {"name": "Flume_VM", "size": 5914,"etat":"ok"},
+						  {"name": "SPARK_VM", "size": 7840,"etat":"ok"}
+						  ]},
+      {"name": "LH_PC5", "size": 3416,"etat":"ok"}
+     ]
+    },
+    {"name": "Server1", "size": 1041,"etat":"ok"},
+    {"name": "Server2", "size": 5176,"etat":"ok"},
+    {"name": "Server3", "size": 449,"etat":"ok"},
+    {"name": "Server4", "size": 5593,"etat":"ko"},
+	{
+     "name": "Administration",
+     "children": [
+      {"name": "AD_PC1", "size": 3938,"etat":"ok"},
+	  {"name": "AD_PC2", "size": 4938,"etat":"ok"},
+      {"name": "AD_PC3", "size": 6714,"etat":"ok"},
+      {"name": "AD_PC4", "size": 743,"etat":"ok"}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "BatC",
+   "children": [
+    {
+     "name": "StarlingsHost",
+     "children": [
+      {"name": "SHPC1", "size": 721,"etat":"ok"},
+      {"name": "SHPC2", "size": 4294,"etat":"ok"},
+      {"name": "SHPC3", "size": 9800,"etat":"ok"},
+      {"name": "SHPC4", "size":1314 ,"etat":"ok"},
+      {"name": "SHPC5", "size": 2220,"etat":"ko",
+	  "children": [
+		{"name": "VM1", "size": 1759,"etat":"ok"},
+		{"name": "VM2", "size": 2165,"etat":"ok"},
+		{"name": "VM3", "size": 586,"etat":"ko"},
+		{"name": "VM4", "size": 3331,"etat":"ok"},
+		{"name": "VM5", "size": 772,"etat":"ko"}
+		]}
+     ]
+    }]
+  },
+  {
+   "name": "BatD",
+   "children": [
+    {"name": "DEMOPC1", "size": 8833,"etat":"ko"},
+    {"name": "DEMOPC2", "size": 1732,"etat":"ok"},
+    {"name": "DEMOPC3", "size": 3623,"etat":"ok"},
+    {"name": "DEMOPC4", "size": 10066,"etat":"ok"}
+   ]
+  },
+  {
+   "name": "BatE",
+   "children": [
+    {"name": "MASTER", "size": 4116,"etat":"ok"}
+   ]
+  },
+  {
+   "name": "BatF",
+   "children": [
+    {"name": "192.168.0.1", "size": 1616,"etat":"ok"},
+    {"name": "192.168.0.2", "size": 1027,"etat":"ok"},
+	{
+     "name": "Administration",
+     "children": [
+      {"name": "AD_PC1", "size": 3938,"etat":"ok"},
+	  {"name": "AD_PC2", "size": 4938,"etat":"ok"},
+      {"name": "AD_PC3", "size": 6714,"etat":"ok"},
+      {"name": "AD_PC4", "size": 743,"etat":"ok"}
+     ]
+    },
+    {"name": "192.168.0.3", "size": 3891,"etat":"ok"},
+    {"name": "192.168.0.4", "size": 891,"etat":"ok"},
+    {
+     "name": "NetworkAdmin",
+     "children": [
+      {"name": "NetAPC1", "size": 593,"etat":"ok"},
+      {"name": "NetAPC2", "size": 330,"etat":"ok"},
+      {"name": "NetAPC3", "size": 287,"etat":"ko"},
+      {"name": "NetAPC4", "size": 277,"etat":"ok"},
+      {"name": "NetAPC5", "size": 292,"etat":"ok"},
+      {"name": "NetAPC6", "size": 595,"etat":"ok"},
+      {"name": "NetAPC7", "size": 594,"etat":"ko"}
+     ]
+    },
+	{
+     "name": "TP",
+     "children": [
+      	  {"name": "Salle1", "size": 5914,"etat":"ok","children": [
+						  {"name": "S1_Host1", "size": 3534,"etat":"ok"},
+						  {"name": "S1_Host2", "size": 5731,"etat":"ok",
+						  "children": [
+						   {"name": "DupondN", "size": 7840,"etat":"ok"}
+						  ]},
+						 
+						  {"name": "S1_Host3", "size": 7840,"etat":"ok",
+						   "children": [
+						   {"name": "FrancisC", "size": 7840,"etat":"ok"}
+						  ]},
+						  {"name": "S1_Host4", "size": 5914,"etat":"ok"},
+						  {"name": "S1_Host5", "size": 7840,"etat":"ok"}
+						  ]},
+		{"name": "Salle2", "size": 7074,"etat":"ok","children": [
+						  {"name": "S2_Host1", "size": 3534,"etat":"ok",
+						   "children": [
+						   {"name": "RamosR", "size": 7840,"etat":"ok"}
+						  ]},
+						  {"name": "S1_Host2", "size": 5731,"etat":"ok"},
+						  {"name": "S2_Host3", "size": 7840,"etat":"ok",
+						   "children": [
+						   {"name": "ValleJ", "size": 7840,"etat":"ok"}
+						  ]},
+						  {"name": "S2_Host4", "size": 5914,"etat":"ko",
+						  "children": [
+						   {"name": "GueyeA", "size": 7840,"etat":"ko"}
+						  ]},
+						  {"name": "S2_Host5", "size": 7840,"etat":"ok"}
+						  ]},
+      {"name": "Salle3", "size": 3416,"etat":"ok","children": [
+						  {"name": "S3_Host1", "size": 3534,"etat":"ok"},
+						  {"name": "S3_Host2", "size": 5731,"etat":"ok"},
+						  {"name": "S3_Host3", "size": 7840,"etat":"ok"},
+						  {"name": "S3_Host4", "size": 5914,"etat":"ok"},
+						  {"name": "S3_Host5", "size": 7840,"etat":"ok"}
+						  ]},
+	  {"name": "Salle4", "size": 6714,"etat":"ok","children": [
+						  {"name": "S4_Host1", "size": 3534,"etat":"ok"},
+						  {"name": "S4_Host2", "size": 5731,"etat":"ok"},
+						  {"name": "S4_Host3", "size": 7840,"etat":"ok"},
+						  {"name": "S4_Host4", "size": 5914,"etat":"ko"},
+						  {"name": "S4_Host5", "size": 7840,"etat":"ok"}
+						  ]}
+     ]
+    },
+    {"name": "192.168.1.1", "size": 843,"etat":"ko"},
+    {
+     "name": "PrintZone",
+     "children": [
+      {"name": "HAPC1", "size": 1983,"etat":"ok"},
+      {"name": "HAPC2", "size": 2047,"etat":"ko"},
+      {"name": "HAPC3", "size": 1375,"etat":"ko"},
+      {"name": "HAPC4", "size": 4743,"etat":"ok"},
+      {"name": "HAPC5", "size": 2202,"etat":"ok"},
+      {"name": "HAPC6", "size": 1382,"etat":"ok"},
+      {"name": "HAPC7", "size": 1629,"etat":"ko"},
+      {"name": "HAPC8", "size": 1675,"etat":"ok"},
+      {"name": "HAPC9", "size": 2042,"etat":"ok"}
+     ]
+    },
+    {"name": "192.168.1.2", "size": 1554,"etat":"ko"},
+    {"name": "192.168.1.3", "size": 970,"etat":"ok"}
+   ]
+  },
+  {
+   "name": "BatG",
+   "children": [
+    {"name": "172.16.116.36", "size": 8258,"etat":"ok"},
+    {"name": "172.16.116.84", "size": 10001,"etat":"ok"},
+    {
+     "name": "ServiceHostBis",
+     "children": [
+      {"name": "SHBPC1", "size": 9354,"etat":"ok"},
+      {"name": "SHBPC2", "size": 1233,"etat":"ok"}
+     ]
+    },
+    {"name": "172.16.116.12", "size": 335,"etat":"ko"},
+    {"name": "172.16.116.152", "size": 383,"etat":"ok"},
+    {"name": "172.16.116.1", "size": 874,"etat":"ko"},
+    {
+     "name": "CryptoHost",
+     "children": [
+      {"name": "CHPC1", "size": 3165,"etat":"ok"},
+      {"name": "CHPC2", "size": 2815,"etat":"ok"},
+      {"name": "CHPC3", "size": 3366,"etat":"ok"}
+     ]
+    },
+    
+    {
+     "name": "CryptoHostBIS",
+     "children": [
+      {"name": "CHPCB1", "size": 6367,"etat":"ok"},
+      {"name": "CHPCB2", "size": 1229,"etat":"ok"},
+      {"name": "CHPCB3", "size": 2059,"etat":"ok"},
+      {"name": "CHPCB4", "size": 2291,"etat":"ok"}
+     ]
+    },
+    {"name": "192.168.5.25", "size": 5559,"etat":"ok"}
+   ]
+  },
+  {
+   "name": "BatH",
+   "children": [
+    {
+     "name": "HPC_A_HostBis",
+     "children": [
+      {"name": "HPCB1", "size": 1302,"etat":"ko"},
+      {"name": "HPCB2", "size": 24593,"etat":"ok"},
+      {"name": "HPCB3", "size": 652,"etat":"ok"}
+      ]
+    },
+    {
+     "name": "CollectorHost",
+     "children": [
+      {"name": "CHPC1", "size": 2138,"etat":"ok"},
+      {"name": "CHPC2", "size": 3824,"etat":"ok"},
+      {"name": "CHPC3", "size": 1353,"etat":"ok"},
+      {"name": "CHPC4", "size": 2649,"etat":"ok"}
+     ]
+    },
+    {
+     "name": "data",
+     "children": [
+      {"name": "Data", "size": 20544,"etat":"ok"},
+      {"name": "DataList", "size": 19788,"etat":"ko"},
+      {"name": "DataSprite", "size": 10349,"etat":"ko"},
+      {"name": "EdgeSprite", "size": 3301,"etat":"ko"},
+      {"name": "NodeSprite", "size": 19382,"etat":"ok"},
+      {
+       "name": "render",
+       "children": [
+        {"name": "ArrowType", "size": 698,"etat":"ok"},
+        {"name": "ShapeRenderer", "size": 2247,"etat":"ok"}
+       ]
+      },
+      {"name": "ScaleBinding", "size": 11275,"etat":"ok"},
+      {"name": "Tree", "size": 7147,"etat":"ok"},
+      {"name": "TreeBuilder", "size": 9930,"etat":"ko"}
+     ]
+    },
+    {
+     "name": "events",
+     "children": [
+      {"name": "DataEvent", "size": 2313,"etat":"ok"},
+      {"name": "SelectionEvent", "size": 1880,"etat":"ok"},
+      {"name": "TooltipEvent", "size": 1701,"etat":"ko"},
+      {"name": "VisualizationEvent", "size": 1117,"etat":"ok"}
+     ]
+    },
+    {
+     "name": "legend",
+     "children": [
+      {"name": "Legend", "size": 20859,"etat":"ok"},
+      {"name": "LegendItem", "size": 4614,"etat":"ko"},
+      {"name": "LegendRange", "size": 10530,"etat":"ok"}
+     ]
+    },
+    {
+     "name": "operator",
+     "children": [
+      {
+       "name": "distortion",
+       "children": [
+        {"name": "BifocalDistortion", "size": 4461,"etat":"ko"},
+        {"name": "Distortion", "size": 6314,"etat":"ko"},
+        {"name": "FisheyeDistortion", "size": 3444,"etat":"ok"}
+       ]
+      },
+      {
+       "name": "filter",
+       "children": [
+        {"name": "FisheyeTreeFilter", "size": 5219,"etat":"ok"},
+        {"name": "GraphDistanceFilter", "size": 3165,"etat":"ok"},
+        {"name": "VisibilityFilter", "size": 3509,"etat":"ok"}
+       ]
+      },
+      {"name": "IOperator", "size": 1286,"etat":"ko"},
+      {
+       "name": "label",
+       "children": [
+        {"name": "Labeler", "size": 9956,"etat":"ok"},
+        {"name": "RadialLabeler", "size": 3899,"etat":"ok"},
+        {"name": "StackedAreaLabeler", "size": 3202,"etat":"ok"}
+       ]
+      },
+      {"name": "Operator", "size": 2490,"etat":"ok"},
+      {"name": "OperatorList", "size": 5248,"etat":"ok"},
+      {"name": "OperatorSequence", "size": 4190,"etat":"ok"},
+      {"name": "OperatorSwitch", "size": 2581,"etat":"ko"},
+      {"name": "SortOperator", "size": 2023,"etat":"ok"}
+     ]
+    },
+    {"name": "Visualization", "size": 16540,"etat":"ok"}
+   ]
+  }
+ ]
+}

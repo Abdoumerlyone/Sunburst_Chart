@@ -1,0 +1,74 @@
+{
+ "name": "Openstack",
+ "children": [
+  {
+   "name": "Internal",
+   "children": [    
+      {"name": "nova1", "size": 1000}, 
+      {"name": "nova2", "size": 1000}     
+     ]
+    },
+  {
+   "name": "r422-e2-13.openstack.admin",
+   "children": [
+      {
+     "name": "r422-e2-13", "ID": "2", "host_ip ":"10.197.219.80",
+     "children": [
+      {"name": "test", "name_Instance": "instance-0000018d", "status": "stopped","size": 1000},
+      {"name": "testvm2", "name_Instance": "instance-00000190", "status": "error","size": 1000},
+      {"name": "netvirt1", "name_Instance": "instance-000001b7", "status": "active","size": 1000},
+      {"name": "netvirt-server", "name_Instance": "instance-000001c0", "status": "active","size": 1000},
+      {"name": "netvirt3", "name_Instance": "instance-000001c6", "status": "active","size": 1000},
+      {"name": "netvirt2", "name_Instance": "instance-000001ea", "status": "active","size": 1000},
+      {"name": "test13_2", "name_Instance": "instance-000001f9", "status": "active","size": 1000},
+      {"name": "test-netvirt2", "name_Instance": "instance-00000214", "status": "active","size": 1000}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "nova",
+   "children": [
+    {
+     "name": "r422-e2-9", "ID": "8", "host_ip ":"10.197.191.194", "size": 1000}    
+   ]
+  },
+ {
+   "name": "test-compute.openstack.admin",
+   "children": [
+    {
+     "name": "test-compute", "ID": "10", "host_ip ":"10.197.219.147","size": 1000}    
+   ]
+  },
+
+{
+   "name": "r422-e2-4.openstack.admin",
+   "children": [
+      {
+     "name": "r422-e2-4", "ID": "13", "host_ip ":"10.197.219.37",
+     "children": [
+      {"name": "test", "name_Instance": "instance-000001db", "status": "active", "size": 1000},
+      {"name": "test2", "name_Instance": "instance-000001de", "status": "active", "size": 1000},
+      {"name": "testlva", "name_Instance": "instance-000001e1", "status": "active","size": 1000},
+      {"name": "netvirt-server-demo", "name_Instance": "instance-0000021a", "status": "active","size": 1000},
+      {"name": "netvirt-agent-1", "name_Instance": "instance-0000021d", "status": "active","size": 1000},
+      {"name": "netvirt-agent-2", "name_Instance": "instance-00000220", "status": "active", "size": 1000},
+      {"name": "server", "name_Instance": "instance-0000023e", "status": "active","size": 1000}
+     ]
+    }
+   ]
+  },
+{
+   "name": "computes",
+   "children": [
+    {
+     "name": "r422-e2-14", "ID": "5", "host_ip ":"10.197.219.81",
+     "children": [
+    {
+     "name": "testvm4", "name_Instance": "instance-00000196", "status": "active", "size": 1000}    
+   ]
+   }    
+   ]
+  }
+]
+}

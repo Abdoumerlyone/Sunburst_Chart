@@ -1,0 +1,240 @@
+{
+ "name": "Openstack",
+ "children": [
+  {
+   "name": "Internal",
+   "children": [    
+      {"name": "tikehau", "size": 1000}
+     ]
+    },
+  {
+   "name": "AvailabilityZone1",
+   "children": [
+      {
+     "name": "b6e6n", "ID": "12", "host_ip ":"",
+     "children": [
+      {"name": "instance-000026a0", "status": "active","size": 1000},
+      {"name": "instance-000026a2", "status": "active","size": 1000},
+      {"name": "instance-0000584d", "status": "active","size": 1000}
+     ]
+    },
+   {
+     "name": "8jqgw", "ID": "22", "host_ip ":"",
+     "children": [
+      {"name": "instance-00002dd2", "status": "active","size": 1000},
+      {"name": "instance-00002f7c", "status": "active","size": 1000}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "AvailabilityZone2",
+    "children": [
+      {
+     "name": "49x9c", "ID": "1", "host_ip ":"",
+     "children": [
+      {"name": "instance-00000ad2", "status": "active","size": 1000},
+      {"name": "instance-00000d34", "status": "active","size": 1000},
+      {"name": "instance-00003d78", "status": "active","size": 1000}
+     ]
+    },
+   {
+     "name": "7fyjj", "ID": "10", "host_ip ":"",
+     "children": [
+      {"name": "instance-00000da5", "status": "active","size": 1000},
+      {"name": "instance-00000db8", "status": "active","size": 1000},
+      {"name": "instance-00002f50", "status": "active","size": 1000}
+     ]
+    }
+   ]
+  },
+ {
+   "name": "AvailabilityZone3",
+   "children": [
+    {
+     "name": "bjpth", "ID": "18", "host_ip ":"10.197.219.147","size": 1000,
+  "children": [
+      {"name": "instance-00001e97", "status": "active","size": 1000},
+      {"name": "instance-00001f14", "status": "active","size": 1000},
+      {"name": "instance-00003a9e", "status": "active","size": 1000},
+      {"name":  "a4c", "inst_name":"instance-00003a9f", "status": "active","size": 1000}
+     ]
+}    
+   ]
+  },
+
+{
+   "name": "nova",
+   "children": [
+      {
+     "name": "yjc7t", "ID": "23", "host_ip ":"10.197.219.37",
+     "children": [
+      {"name": "instance-00003d79", "status": "active", "size": 1000},
+      {"name": "instance-00005901", "status": "active", "size": 1000},
+      {"name": "instance-00005830", "status": "active","size": 1000}
+     ]
+    },
+ {
+     "name": "cjk4m", "ID": "23", "host_ip ":"10.197.219.37"},
+ {
+     "name": "gaqft", "ID": "25", "host_ip ":"10.197.219.37",
+     "children": [
+      {"name": "instance-00003d67", "status": "active", "size": 1000},
+      {"name": "instance-00003d7a", "status": "active", "size": 1000},
+      {"name": "instance-00005125", "status": "active","size": 1000},
+      {"name": "instance-00005833", "status": "active","size": 1000}
+     ]
+    },
+ {
+     "name": "xm7xa", "ID": "26", "host_ip ":"10.197.219.37",
+     "children": [
+      {"name": "instance-00004a36", "status": "active", "size": 1000},
+      {"name": "instance-00004a4e", "status": "active", "size": 1000},
+      {"name": "instance-00004c5c", "status": "active","size": 1000},
+      {"name": "instance-00004c62", "status": "active","size": 1000}
+     ]
+    },
+ {
+     "name": "trgjt", "ID": "13", "host_ip ":"10.197.219.37",
+     "children": [
+      {"name": "instance-000023b4", "status": "active", "size": 1000},
+      {"name": "instance-00002501", "status": "active", "size": 1000},
+      {"name": "instance-00004502", "status": "active","size": 1000},
+      {"name": "instance-000058a6", "status": "active","size": 1000}
+     ]
+    },
+ {
+     "name": "ep6cj", "ID": "2", "host_ip ":"10.197.219.37",
+     "children": [
+      {"name": "instance-00000d50", "status": "active", "size": 1000},
+      {"name": "instance-00000db6", "status": "active", "size": 1000},
+      {"name": "instance-00003dc3", "status": "active","size": 1000},
+      {"name": "instance-000058a5", "status": "active","size": 1000}
+     ]
+    },
+ {
+     "name": "ybxcr", "ID": "19", "host_ip ":"10.197.219.37",
+     "children": [
+      {"name": "VMBootInterne ", "inst_name":"instance-000015e1", "status": "active", "size": 1000},
+      {"name": "instance-0000250b", "status": "active", "size": 1000},
+      {"name": "instance-000026a1", "status": "active","size": 1000},
+      {"name": "instance-0000474c", "status": "active","size": 1000},
+      {"name": "instance-0000589d", "status": "active","size": 1000}
+     ]
+    },
+ {
+     "name": "n3tj4", "ID": "4", "host_ip ":"10.197.219.37",
+     "children": [
+      {"name": "instance-00000d36", "status": "active", "size": 1000},
+      {"name": "instance-00002150", "status": "active", "size": 1000},
+      {"name": "instance-00002502", "status": "active","size": 1000},
+      {"name": "instance-00003dd7", "status": "active","size": 1000},
+      {"name": "instance-000044fb", "status": "active","size": 1000}
+     ]
+    },
+ {
+     "name": "dkw3g", "ID": "5", "host_ip ":"10.197.219.37",
+     "children": [
+      {"name": "instance-00000c89", "status": "active", "size": 1000},
+      {"name": "instance-00000c8d", "status": "active", "size": 1000},
+      {"name": "instance-00000c92", "status": "active","size": 1000},
+      {"name": "instance-00000c93", "status": "active","size": 1000},
+      {"name": "instance-00001a0f", "status": "active","size": 1000},
+      {"name": "instance-0000250e", "status": "active","size": 1000}
+     ]
+    },
+ {
+     "name": "hfrhr", "ID": "6", "host_ip ":"10.197.219.37",
+     "children": [
+      {"name": "instance-00000a0a", "status": "active", "size": 1000},
+      {"name": "instance-00000c88", "status": "active", "size": 1000},
+      {"name": "instance-00003623", "status": "active","size": 1000},
+      {"name": "instance-00004c61", "status": "active","size": 1000}
+     ]
+    },
+ {
+     "name": "dkw3g", "ID": "5", "host_ip ":"10.197.219.37",
+     "children": [
+      {"name": "instance-00000c89", "status": "active", "size": 1000},
+      {"name": "instance-00000c8d", "status": "active", "size": 1000},
+      {"name": "instance-00000c92", "status": "active","size": 1000},
+      {"name": "instance-00000c93", "status": "active","size": 1000},
+      {"name": "instance-00001a0f", "status": "active","size": 1000},
+      {"name": "instance-0000250e", "status": "active","size": 1000}
+     ]
+    },
+ {
+     "name": "946gw", "ID": "8", "host_ip ":"10.197.219.37",
+     "children": [
+      {"name": "instance-00003cc1", "status": "active", "size": 1000},
+      {"name": "instance-00004881", "status": "active", "size": 1000},
+      {"name": "instance-00005883", "status": "active","size": 1000}
+     ]
+    },
+ {
+     "name": "myxkg", "ID": "9", "host_ip ":"10.197.219.37",
+     "children": [
+      {"name": "instance-00001482", "status": "active", "size": 1000},
+      {"name": "instance-00002211", "status": "active", "size": 1000},
+      {"name": "ca-EnvironmentBTICs-compute_es-30", "inst_name": "instance-00002f7b", "status": "active","size": 1000},
+      {"name": "instance-000058a7", "status": "active","size": 1000}
+     ]
+    },
+ {
+     "name": "9kfkd", "ID": "11", "host_ip ":"10.197.219.37",
+     "children": [
+      {"name": "instance-00001fcd", "status": "active", "size": 1000},
+      {"name": "instance-0000250d", "status": "active", "size": 1000},
+      {"name": "instance-00003dc0", "status": "active","size": 1000},
+      {"name": "instance-000044a6", "status": "active","size": 1000}
+     ]
+    },
+ {
+     "name": "ba89k", "ID": "14", "host_ip ":"10.197.219.37",
+     "children": [
+      {"name": "instance-000020d4", "status": "active", "size": 1000},
+      {"name": "instance-00002500", "status": "active", "size": 1000},
+      {"name": "instance-00004833", "status": "active","size": 1000},
+      {"name": "instance-0000588a", "status": "active","size": 1000}
+     ]
+    },
+ {
+     "name": "bfyyp", "ID": "16", "host_ip ":"10.197.219.37",
+     "children": [
+      {"name": "DockerRegistry", "inst_name": "instance-000014e9", "status": "active", "size": 1000},
+      {"name": "instance-000014ef", "status": "active", "size": 1000},
+      {"name": "instance-000023b3", "status": "active","size": 1000},
+      {"name": "instance-0000250c", "status": "active","size": 1000},
+      {"name": "instance-00003e5c", "status": "active","size": 1000}
+     ]
+    },
+ {
+     "name": "e73q6", "ID": "17", "host_ip ":"10.197.219.37",
+     "children": [
+      {"name": "instance-000023b5", "status": "active", "size": 1000},
+      {"name": "instance-00003718", "status": "active", "size": 1000},
+      {"name": "instance-00004569", "status": "active","size": 1000},
+      {"name": "ABDOU", "inst_name": "instance-00004840", "status": "active","size": 1000}
+     ]
+    },
+ {
+     "name": "f73ka", "ID": "20", "host_ip ":"10.197.219.37",
+     "children": [
+      {"name": "instance-00001532", "status": "active", "size": 1000},
+      {"name": "instance-00003de6", "status": "active", "size": 1000},
+      {"name": "instance-00005854", "status": "active","size": 1000}
+     ]
+    },
+ {
+     "name": "cnqkd", "ID": "21", "host_ip ":"10.197.219.37",
+     "children": [
+      {"name": "instance-00001740", "status": "active", "size": 1000},
+      {"name": "instance-00001745", "status": "active", "size": 1000},
+      {"name": "instance-0000178e", "status": "active","size": 1000},
+      {"name": "instance-00004c5e", "status": "active","size": 1000}
+     ]
+    }
+   ]
+  }
+]
+}

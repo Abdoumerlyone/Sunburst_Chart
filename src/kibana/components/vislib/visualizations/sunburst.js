@@ -185,7 +185,7 @@ define(function (require) {
                             });
                     // Keep track of the node that is currently being displayed as the root.
                     var node;
-                    //d3.json("components/vislib/visualizations/exemple.json", function(error, root) {
+                    //d3.json("components/vislib/visualizations/maquette.json", function(error, root) {
 
                     var dataJSON = convertIntoJSON(data);
 
@@ -198,10 +198,11 @@ define(function (require) {
                                 //return color((d.children ? d : d.parent).name);
                                 //  console.log("l'etat: ", d.etat);
                                 // console.log("la couleur: ", color(d.name));
-                                if (d.etat === "ko") // si HS
+                                if (d.status === "error") // si HS
                                     return "#ff000f"; // red color
+else if ( d.status === "stopped") return "#3d3d3d"
                                 else
-                                    return color(d.name); // random color with name
+                                    return "#1EB03B"; // random color with name
 
                             })
                             .on("click", click)
@@ -255,7 +256,7 @@ define(function (require) {
                                     }
                                 });
                     }
-                    //});
+                  //  });
 
                     d3.select(self.frameElement).style("height", height + "px");
                     // Interpolate the scales!
