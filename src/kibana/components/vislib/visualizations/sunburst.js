@@ -36,7 +36,8 @@ define(function (require) {
                 tree.children = [];
                 tree.children.push({});
                 tree.children[0].name = newId;
-                tree.children[0].size = newVal;
+                tree.children[0].size = 3000;
+                tree.children[0].status = newVal;
                 return false;
             }
 
@@ -53,7 +54,8 @@ define(function (require) {
                     }
                     tree.children.push({});
                     tree.children[tmpLength].name = newId;
-                    tree.children[tmpLength].size = newVal;
+                    tree.children[tmpLength].size = 3000;
+                    tree.children[tmpLength].status = newVal;
                     hasBeenFound.valueOf = function () {
                         return true;
                     };
@@ -68,7 +70,7 @@ define(function (require) {
                     }
                     tree[key].children.push({});
                     tree[key].children[tmpLength].name = newId;
-                    tree[key].children[tmpLength].size = newVal;
+                    tree[key].children[tmpLength].size = 3000;
                     hasBeenFound.valueOf = function () {
                         return true;
                     };
@@ -102,7 +104,9 @@ define(function (require) {
         function convertIntoJSON(data) {
             var nodes = data.nodes.features;
             var childrenList = data.children.features;
-            var vals = data.data.features;
+            var vals = data.tend.features; //data.data.features;
+            //var tendance = data.tend.features;
+             console.log("#### VALS: ", vals);
 
             var json = {};
             // json.name = 'cluster';
@@ -135,7 +139,8 @@ define(function (require) {
                     json.children[tmpLength].children = [];
                     json.children[tmpLength].children.push({});
                     json.children[tmpLength].children[0].name = childrenList[i];
-                    json.children[tmpLength].children[0].size = vals[i];
+                    json.children[tmpLength].children[0].status = vals[i];
+                     json.children[tmpLength].children[0].size = 3000;
 
                 }
                 i += 1;
@@ -188,7 +193,7 @@ define(function (require) {
                     //d3.json("components/vislib/visualizations/maquette.json", function(error, root) {
 
                     var dataJSON = convertIntoJSON(data);
-
+console.log("JSON : ", dataJSON);
                     var g = svg.selectAll("g")
                             .data(partition.nodes(dataJSON))
                             .enter().append("g");
@@ -200,7 +205,7 @@ define(function (require) {
                                 // console.log("la couleur: ", color(d.name));
                                 if (d.status === "error") // si HS
                                     return "#ff000f"; // red color
-else if ( d.status === "stopped") return "#3d3d3d"
+else if ( d.status === "shutoff") return "#3d3d3d"
                                 else
                                     return "#1EB03B"; // random color with name
 

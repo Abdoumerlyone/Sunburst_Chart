@@ -14,13 +14,15 @@ define(function(require) {
             var index = {
                 nodes: findCol(table, 'nodes'),
                 children: findCol(table, 'children'),
+                tendance: findCol(table, 'tendance'),
                 metric: findCol(table, 'metric')
             };
 
             var col = {
                 nodes: table.columns[index.nodes],
                 children: table.columns[index.children],
-                metric: table.columns[index.metric]
+                 tendance: table.columns[index.tendance],
+                 metric: table.columns[index.metric]
             };
 
             var agg = _.mapValues(col, function(col) {
@@ -32,7 +34,8 @@ define(function(require) {
                 slices: {
                     children: [
                         {name: '_all'},
-                        {size: '_all'}
+                        {size: '_all'},
+                        {status: '_all'}
                     ]
                 }
             };
@@ -49,7 +52,10 @@ define(function(require) {
                 type: 'FeatureCollection',
                 features: []
             };
-
+            chart.tend = {
+                type: 'FeatureCollection',
+                features: []
+            };
             // we're all done if there are no columns
             if (!col.nodes || !col.children || !col.metric || !table.rows.length)
                 return chart;
