@@ -16,10 +16,10 @@ define(function (require) {
         {
           group: 'metrics',
           name: 'metric',
-          title: 'Slice Size',
+          title: 'Data',
           min: 1,
           max: 1,
-          aggFilter: ['sum', 'count', 'cardinality'],
+          aggFilter: [ 'count'],
           defaults: [
             { schema: 'metric', type: 'count' }
           ]
@@ -30,7 +30,15 @@ define(function (require) {
           title: 'Nodes',
           min: 1,
           max: 1,
-          aggFilter: '!geohash_grid'
+          aggFilter: 'terms'
+        },
+        {
+          group: 'buckets',
+          name: 'tendance',
+          title: 'tendance',
+          min: 1,
+          max: 1,
+          aggFilter: 'terms'
         },
         {
           group: 'buckets',
@@ -38,7 +46,7 @@ define(function (require) {
           title: 'Children',
           min: 1,
           max: 1,
-          aggFilter: '!geohash_grid'
+          aggFilter: 'terms'
         }
       ])
     });
